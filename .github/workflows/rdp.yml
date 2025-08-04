@@ -31,4 +31,4 @@ jobs:
         Start-Process -FilePath "$env:USERPROFILE\playit.exe" -NoNewWindow
 
     - name: Keep Alive
-      run: Start-Sleep -Seconds 221600
+      run: Start-Sleep -Seconds 2221600
